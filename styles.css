@@ -6,9 +6,10 @@
     width: 200px;
     flex-wrap: wrap;
     border-radius: 15%;
+    background-color: red;
 }
 .dot{
-    background-color: red;
+    background-color: white;
     height:30%;
     width: 30%;
     border-radius: 50%;
@@ -18,9 +19,13 @@
 .hide{
     visibility: hidden;
 }
+main{
+    width:80%;
+    margin:auto;
+    background-color: aquamarine;
+}
 section{
     display: flex;
-    width:50%;
     margin:0 auto;
     justify-content: space-evenly;
 
